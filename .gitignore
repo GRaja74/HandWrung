@@ -1,5 +1,20 @@
-_site
-.sass-cache
-.jekyll-cache
+# Ignore site output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+# Ignore log and temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Ruby dependencies
+.bundle/
+vendor/
+
+# Ignore VSCode settings (if you use it)
+.vscode/
