@@ -3,35 +3,4 @@
 ---
 
 @import "minima";
-
-.site-title-wrapper {
-  display: flex;
-  flex-direction: column; /* stack children vertically */
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.site-title {
-  margin: 0;
-  font-size: 2rem;
-}
-
-.site-tagline {
-  font-size: 1rem;
-  font-style: italic;
-  color: #444;
-  margin-top: 0.25rem;
-}
-
-.site-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  padding-top: 1rem; /* Optional: adds breathing room */
-}
-
-
-
-
+@import "custom-style";
