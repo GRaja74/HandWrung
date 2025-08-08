@@ -36,6 +36,13 @@
 
 @font-face {
   font-family: 'EB Garamond';
+  src: url('/assets/fonts/EBGaramond-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
   src: url('/assets/fonts/EBGaramond-Bold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
@@ -51,32 +58,32 @@
 /* Fonts in Use */
 .site-title {
   font-family: 'Underwood', monospace !important;
-  font-size: 32px;
+  font-size: 64px;
   font-weight: normal;
 }
 
+.site-title:hover {
+  text-decoration: none;   /* no underline */
+  cursor: pointer;         /* still indicates clickability */
+}
+
+
 .site-header {
   border-top: none;
+  border-bottom: none;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .site-tagline {
   display: block;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #777;
   font-style: normal;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   text-align: center;
   width: 100%;
 }
-
-/*
-.site-tagline {
-  font-size: 1rem;
-    font-style: italic;
-  color: #777;
-  margin-top: 0.2rem;
-}
-*/
 
 .site-footer {
   font-family: 'Underwood', monospace !important;
@@ -100,15 +107,57 @@ body {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1 {
   font-family: 'EB Garamond', Georgia, serif;
-  font-weight: 600;
-  line-height: 1.2;
+  font-weight: 400; /* lighter */
+  font-size: 2rem;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 500;
+  line-height: 1.3;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
+h3 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+}
 /* Italics */
 em, i {
   font-style: italic;
 }
+
+/* Post titles on home page */
+.post-list .post-link {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 400; 
+  font-size: 1.5rem;
+  color: black !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.post-list .post-link:hover {
+  color: black !important;          /* prevent color change */
+  text-decoration: none;   /* no underline */
+  cursor: pointer;         /* still indicates clickability */
+}
+
+/*
+.post-meta {
+  margin-bottom: 0.25rem;
+  color: #999;
+  font-size: 0.9rem;
+}
+*/
+
