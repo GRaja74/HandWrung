@@ -19,35 +19,35 @@
 
 @font-face {
   font-family: 'Underwood';
-  src: url('../fonts/Underwood_Quiet_Tab.woff2') format('woff2');
+  src: url('/assets/fonts/Underwood_Quiet_Tab.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('../fonts/EBGaramond-Regular.woff2') format('woff2');
+  src: url('/assets/fonts/EBGaramond-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('../fonts/EBGaramond-Bold.woff2') format('woff2');
+  src: url('/assets/fonts/EBGaramond-Bold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('../fonts/EBGaramond-Italic.woff2') format('woff2');
+  src: url('/assets/fonts/EBGaramond-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
 /* Fonts in Use */
 .site-title {
-  font-family: 'Underwood', monospace;
+  font-family: 'Underwood', monospace !important;
   font-size: 32px;
   font-weight: normal;
 }
@@ -76,7 +76,7 @@
 */
 
 .site-footer {
-  font-family: 'Underwood', monospace;
+  font-family: 'Underwood', monospace !important;
   font-size: 0.9rem;
   color: #555;
   letter-spacing: 0.02em;
